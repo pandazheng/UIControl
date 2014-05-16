@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DiskGameDemo/DiskGameDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ShakingAlertView/ShakingAlertView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LikeQQIndicator/LikeQQIndicator.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:YahooIndicator/YahooIndicator.xcodeproj">
    </FileRef>
 </Workspace>
