@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB2EDB87-3CAD-4CB3-8CA7-F0397509205F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIControl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>41E87D3C-A04D-4494-A5BA-BA12C8E88418</key>
+		<string>https://github.com/pandazheng/UIControl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIControl.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>41E87D3C-A04D-4494-A5BA-BA12C8E88418</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pandazheng/UIControl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>41E87D3C-A04D-4494-A5BA-BA12C8E88418</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>41E87D3C-A04D-4494-A5BA-BA12C8E88418</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIControl</string>
+		</dict>
+	</array>
+</dict>
+</plist>

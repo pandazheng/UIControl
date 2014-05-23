@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4A718AA1928999900FEC958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A718A91928999900FEC958 /* Foundation.framework */; };
+		A4A718AC1928999900FEC958 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A718AB1928999900FEC958 /* CoreGraphics.framework */; };
+		A4A718AE1928999900FEC958 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A718AD1928999900FEC958 /* UIKit.framework */; };
+		A4A718B41928999900FEC958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4A718B21928999900FEC958 /* InfoPlist.strings */; };
+		A4A718B61928999900FEC958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A718B51928999900FEC958 /* main.m */; };
+		A4A718BA1928999900FEC958 /* CircularProgressAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A718B91928999900FEC958 /* CircularProgressAppDelegate.m */; };
+		A4A718BD1928999900FEC958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A718BB1928999900FEC958 /* Main.storyboard */; };
+		A4A718C01928999900FEC958 /* CircularProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A718BF1928999900FEC958 /* CircularProgressViewController.m */; };
+		A4A718C21928999900FEC958 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A718C11928999900FEC958 /* Images.xcassets */; };
+		A4A718C91928999A00FEC958 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A718C81928999A00FEC958 /* XCTest.framework */; };
+		A4A718CA1928999A00FEC958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A718A91928999900FEC958 /* Foundation.framework */; };
+		A4A718CB1928999A00FEC958 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A718AD1928999900FEC958 /* UIKit.framework */; };
+		A4A718D31928999A00FEC958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4A718D11928999A00FEC958 /* InfoPlist.strings */; };
+		A4A718D51928999A00FEC958 /* CircularProgressViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A718D41928999A00FEC958 /* CircularProgressViewDemoTests.m */; };
+		A4A718E319289A7500FEC958 /* In my song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4A718DF19289A7500FEC958 /* In my song.mp3 */; };
+		A4A718E419289A7500FEC958 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A718E019289A7500FEC958 /* pause@2x.png */; };
+		A4A718E519289A7500FEC958 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A718E119289A7500FEC958 /* play@2x.png */; };
+		A4A718E619289A7500FEC958 /* stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A718E219289A7500FEC958 /* stop@2x.png */; };
+		A4A718EA19289ABF00FEC958 /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A718E919289ABF00FEC958 /* CircularProgressView.m */; };
+		A4A718ED19289E2D00FEC958 /* ToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A718EC19289E2D00FEC958 /* ToggleButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4A718CC1928999A00FEC958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A7189E1928999900FEC958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A718A51928999900FEC958;
+			remoteInfo = CircularProgressViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4A718A61928999900FEC958 /* CircularProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A718A91928999900FEC958 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4A718AB1928999900FEC958 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4A718AD1928999900FEC958 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4A718B11928999900FEC958 /* CircularProgressViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircularProgressViewDemo-Info.plist"; sourceTree = "<group>"; };
+		A4A718B31928999900FEC958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4A718B51928999900FEC958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4A718B71928999900FEC958 /* CircularProgressViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircularProgressViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A4A718B81928999900FEC958 /* CircularProgressAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularProgressAppDelegate.h; sourceTree = "<group>"; };
+		A4A718B91928999900FEC958 /* CircularProgressAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularProgressAppDelegate.m; sourceTree = "<group>"; };
+		A4A718BC1928999900FEC958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4A718BE1928999900FEC958 /* CircularProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularProgressViewController.h; sourceTree = "<group>"; };
+		A4A718BF1928999900FEC958 /* CircularProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularProgressViewController.m; sourceTree = "<group>"; };
+		A4A718C11928999900FEC958 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4A718C71928999A00FEC958 /* CircularProgressViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A718C81928999A00FEC958 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4A718D01928999A00FEC958 /* CircularProgressViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircularProgressViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A4A718D21928999A00FEC958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4A718D41928999A00FEC958 /* CircularProgressViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularProgressViewDemoTests.m; sourceTree = "<group>"; };
+		A4A718DF19289A7500FEC958 /* In my song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In my song.mp3"; sourceTree = "<group>"; };
+		A4A718E019289A7500FEC958 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		A4A718E119289A7500FEC958 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		A4A718E219289A7500FEC958 /* stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop@2x.png"; sourceTree = "<group>"; };
+		A4A718E819289ABF00FEC958 /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
+		A4A718E919289ABF00FEC958 /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressView.m; sourceTree = "<group>"; };
+		A4A718EB19289E2D00FEC958 /* ToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleButton.h; sourceTree = "<group>"; };
+		A4A718EC19289E2D00FEC958 /* ToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToggleButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A718A31928999900FEC958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A718AC1928999900FEC958 /* CoreGraphics.framework in Frameworks */,
+				A4A718AE1928999900FEC958 /* UIKit.framework in Frameworks */,
+				A4A718AA1928999900FEC958 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A718C41928999A00FEC958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A718C91928999A00FEC958 /* XCTest.framework in Frameworks */,
+				A4A718CB1928999A00FEC958 /* UIKit.framework in Frameworks */,
+				A4A718CA1928999A00FEC958 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A7189D1928999900FEC958 = {
+			isa = PBXGroup;
+			children = (
+				A4A718AF1928999900FEC958 /* CircularProgressViewDemo */,
+				A4A718CE1928999A00FEC958 /* CircularProgressViewDemoTests */,
+				A4A718A81928999900FEC958 /* Frameworks */,
+				A4A718A71928999900FEC958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A718A71928999900FEC958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A718A61928999900FEC958 /* CircularProgressViewDemo.app */,
+				A4A718C71928999A00FEC958 /* CircularProgressViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A718A81928999900FEC958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A718A91928999900FEC958 /* Foundation.framework */,
+				A4A718AB1928999900FEC958 /* CoreGraphics.framework */,
+				A4A718AD1928999900FEC958 /* UIKit.framework */,
+				A4A718C81928999A00FEC958 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4A718AF1928999900FEC958 /* CircularProgressViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A4A718E719289A9200FEC958 /* CircularProgressView */,
+				A4A718B81928999900FEC958 /* CircularProgressAppDelegate.h */,
+				A4A718B91928999900FEC958 /* CircularProgressAppDelegate.m */,
+				A4A718BB1928999900FEC958 /* Main.storyboard */,
+				A4A718BE1928999900FEC958 /* CircularProgressViewController.h */,
+				A4A718BF1928999900FEC958 /* CircularProgressViewController.m */,
+				A4A718EB19289E2D00FEC958 /* ToggleButton.h */,
+				A4A718EC19289E2D00FEC958 /* ToggleButton.m */,
+				A4A718C11928999900FEC958 /* Images.xcassets */,
+				A4A718B01928999900FEC958 /* Supporting Files */,
+			);
+			path = CircularProgressViewDemo;
+			sourceTree = "<group>";
+		};
+		A4A718B01928999900FEC958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A718DE19289A5C00FEC958 /* Resources */,
+				A4A718B11928999900FEC958 /* CircularProgressViewDemo-Info.plist */,
+				A4A718B21928999900FEC958 /* InfoPlist.strings */,
+				A4A718B51928999900FEC958 /* main.m */,
+				A4A718B71928999900FEC958 /* CircularProgressViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4A718CE1928999A00FEC958 /* CircularProgressViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A718D41928999A00FEC958 /* CircularProgressViewDemoTests.m */,
+				A4A718CF1928999A00FEC958 /* Supporting Files */,
+			);
+			path = CircularProgressViewDemoTests;
+			sourceTree = "<group>";
+		};
+		A4A718CF1928999A00FEC958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A718D01928999A00FEC958 /* CircularProgressViewDemoTests-Info.plist */,
+				A4A718D11928999A00FEC958 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4A718DE19289A5C00FEC958 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4A718DF19289A7500FEC958 /* In my song.mp3 */,
+				A4A718E019289A7500FEC958 /* pause@2x.png */,
+				A4A718E119289A7500FEC958 /* play@2x.png */,
+				A4A718E219289A7500FEC958 /* stop@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A4A718E719289A9200FEC958 /* CircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A4A718E819289ABF00FEC958 /* CircularProgressView.h */,
+				A4A718E919289ABF00FEC958 /* CircularProgressView.m */,
+			);
+			name = CircularProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4A718A51928999900FEC958 /* CircularProgressViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A718D81928999A00FEC958 /* Build configuration list for PBXNativeTarget "CircularProgressViewDemo" */;
+			buildPhases = (
+				A4A718A21928999900FEC958 /* Sources */,
+				A4A718A31928999900FEC958 /* Frameworks */,
+				A4A718A41928999900FEC958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularProgressViewDemo;
+			productName = CircularProgressViewDemo;
+			productReference = A4A718A61928999900FEC958 /* CircularProgressViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4A718C61928999A00FEC958 /* CircularProgressViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A718DB1928999A00FEC958 /* Build configuration list for PBXNativeTarget "CircularProgressViewDemoTests" */;
+			buildPhases = (
+				A4A718C31928999A00FEC958 /* Sources */,
+				A4A718C41928999A00FEC958 /* Frameworks */,
+				A4A718C51928999A00FEC958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A718CD1928999A00FEC958 /* PBXTargetDependency */,
+			);
+			name = CircularProgressViewDemoTests;
+			productName = CircularProgressViewDemoTests;
+			productReference = A4A718C71928999A00FEC958 /* CircularProgressViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A7189E1928999900FEC958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CircularProgress;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "panda zheng";
+				TargetAttributes = {
+					A4A718C61928999A00FEC958 = {
+						TestTargetID = A4A718A51928999900FEC958;
+					};
+				};
+			};
+			buildConfigurationList = A4A718A11928999900FEC958 /* Build configuration list for PBXProject "CircularProgressViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A7189D1928999900FEC958;
+			productRefGroup = A4A718A71928999900FEC958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A718A51928999900FEC958 /* CircularProgressViewDemo */,
+				A4A718C61928999A00FEC958 /* CircularProgressViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A718A41928999900FEC958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A718E319289A7500FEC958 /* In my song.mp3 in Resources */,
+				A4A718C21928999900FEC958 /* Images.xcassets in Resources */,
+				A4A718E519289A7500FEC958 /* play@2x.png in Resources */,
+				A4A718E419289A7500FEC958 /* pause@2x.png in Resources */,
+				A4A718B41928999900FEC958 /* InfoPlist.strings in Resources */,
+				A4A718BD1928999900FEC958 /* Main.storyboard in Resources */,
+				A4A718E619289A7500FEC958 /* stop@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A718C51928999A00FEC958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A718D31928999A00FEC958 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A718A21928999900FEC958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A718C01928999900FEC958 /* CircularProgressViewController.m in Sources */,
+				A4A718BA1928999900FEC958 /* CircularProgressAppDelegate.m in Sources */,
+				A4A718EA19289ABF00FEC958 /* CircularProgressView.m in Sources */,
+				A4A718B61928999900FEC958 /* main.m in Sources */,
+				A4A718ED19289E2D00FEC958 /* ToggleButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A718C31928999A00FEC958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A718D51928999A00FEC958 /* CircularProgressViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A718CD1928999A00FEC958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A718A51928999900FEC958 /* CircularProgressViewDemo */;
+			targetProxy = A4A718CC1928999A00FEC958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4A718B21928999900FEC958 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A718B31928999900FEC958 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4A718BB1928999900FEC958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A718BC1928999900FEC958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4A718D11928999A00FEC958 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A718D21928999A00FEC958 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4A718D61928999A00FEC958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4A718D71928999A00FEC958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4A718D91928999A00FEC958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularProgressViewDemo/CircularProgressViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CircularProgressViewDemo/CircularProgressViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4A718DA1928999A00FEC958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularProgressViewDemo/CircularProgressViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CircularProgressViewDemo/CircularProgressViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4A718DC1928999A00FEC958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircularProgressViewDemo.app/CircularProgressViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularProgressViewDemo/CircularProgressViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CircularProgressViewDemoTests/CircularProgressViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4A718DD1928999A00FEC958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircularProgressViewDemo.app/CircularProgressViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularProgressViewDemo/CircularProgressViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CircularProgressViewDemoTests/CircularProgressViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A718A11928999900FEC958 /* Build configuration list for PBXProject "CircularProgressViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A718D61928999A00FEC958 /* Debug */,
+				A4A718D71928999A00FEC958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A718D81928999A00FEC958 /* Build configuration list for PBXNativeTarget "CircularProgressViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A718D91928999A00FEC958 /* Debug */,
+				A4A718DA1928999A00FEC958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4A718DB1928999A00FEC958 /* Build configuration list for PBXNativeTarget "CircularProgressViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A718DC1928999A00FEC958 /* Debug */,
+				A4A718DD1928999A00FEC958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A7189E1928999900FEC958 /* Project object */;
+}

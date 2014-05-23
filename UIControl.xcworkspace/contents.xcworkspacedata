@@ -2,6 +2,30 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CopyDemo/CopyDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:userDefaultDemo/userDefaultDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomArchivie/CustomArchivie.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ArchiverDemo/ArchiverDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Video/Video.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KVO/KVO.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TextToSpeech/TextToSpeech.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CircularProgressViewDemo/CircularProgressViewDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DiskGameDemo/DiskGameDemo.xcodeproj">
    </FileRef>
    <FileRef
